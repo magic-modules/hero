@@ -22,7 +22,7 @@ npm install magic-modules/hero
 ### <a name="usage"></a>usage
 in a page or module View
 ```javascript
-module.exports = {\n  View: () => Hero(props),\n}
+export const View = state => Hero({ ...state, src: '/img/hero.jpg' })
 ```
 
 [magic-module-url]: https://github.com/magic-modules/
