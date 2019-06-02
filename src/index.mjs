@@ -43,7 +43,7 @@ export const View = props => {
 
 export const style = {
   height: '100vh',
-  width: '100vw',
+  width: '100%',
   position: 'relative',
   display: 'inline-block',
 
