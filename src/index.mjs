@@ -42,7 +42,7 @@ export const View = ({ state, ...props }) => {
 
 export const style = {
   height: '100vh',
-  width: '100vw',
+  width: '100%',
   overflow: 'hidden',
   position: 'relative',
 
