@@ -1,4 +1,4 @@
-export const View = props => {
+export const View = ({ state, ...props }) => {
   if (typeof props === 'string') {
     props = {
       src: props,
@@ -7,15 +7,14 @@ export const View = props => {
 
   const {
     src,
-    heading = props.title,
-    branding = props.description,
+    heading = state.title,
+    branding = state.description,
   } = props
 
+  CHECK_PROPS({ ...props, src, heading, branding }, propTypes, 'Hero')
   if (!src) {
     return
   }
-
-  CHECK_PROPS({ ...props, src, heading, branding }, propTypes, 'Hero')
 
   const p = {}
   if (!props.class) {
@@ -46,14 +45,16 @@ export const style = {
   width: '100%',
   position: 'relative',
   display: 'inline-block',
+  overflow: 'hidden',
 
   'h1, div': {
     position: 'relative',
     textAlign: 'center',
     margin: '1em 0',
   },
+
   img: {
-    height: '100%',
+    height: '100vh',
     width: '100%',
     position: 'absolute',
     top: '0',
