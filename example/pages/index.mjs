@@ -20,7 +20,7 @@ export const View = state => [
   p('will use state.title and state.description as default values for heading and branding.'),
   Pre("Hero({ ...state, src: '/img/hero.jpg', width: '500px', height: '300px' })"),
   p('renders'),
-  Hero({ ...state, src: '/img/hero.jpg', width: '500px', height: '300px' }),
+  Hero({ state, src: '/img/hero.jpg', width: '500px', height: '300px' }),
 
   h2({ id: 'usage-default-arguments' }, 'default arguments'),
   p('@magic tries to keep the default arguments for the Hero sane.'),
@@ -34,7 +34,11 @@ export const View = state => [
 })`),
 
   h2({ id: 'usage-hide' }, 'hide heading or branding'),
-  p('you can hide various parts of the hero by setting their prop values to false (or omitting them).'),
+  p([
+    'you can hide various parts of the hero by setting their prop values to false.',
+    ' if you do not pass title or branding as false,',
+    ' the state.title and state.description variables will be used.',
+  ]),
 
   Pre(`
 Hero({
@@ -52,8 +56,8 @@ Hero({
 
   Pre(`
 Hero({
-  height: 'auto',
-  width: 'auto',
+  height: '300px',
+  width: '500px',
 })`),
 
   h2({ id: 'source' }, 'source'),
