@@ -30,8 +30,8 @@ export const View = state => Hero({ state, src: '/img/hero.jpg' })
 
 [npm-image]: https://img.shields.io/npm/v/@magic-modules/hero.svg
 [npm-url]: https://www.npmjs.com/package/@magic-modules/hero
-[travis-image]: https://api.travis-ci.org/magic-modules/hero.svg?branch=master
-[travis-url]: https://travis-ci.org/magic-modules/hero
+[travis-image]: https://img.shields.io/travis/com/magic-modules/hero/master
+[travis-url]: https://travis-ci.com/magic-modules/hero
 [appveyor-image]: https://img.shields.io/appveyor/ci/magicmodules/hero/master.svg
 [appveyor-url]: https://ci.appveyor.com/project/magicmodules/hero/branch/master
 [coveralls-image]: https://coveralls.io/repos/github/magic-modules/hero/badge.svg
