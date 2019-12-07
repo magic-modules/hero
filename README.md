@@ -25,6 +25,14 @@ in a page or module View
 export const View = state => Hero({ state, src: '/img/hero.jpg' })
 ```
 
+### changelog
+
+#### 0.0.1
+first release
+
+#### 0.0.2
+update readme
+
 [magic-module-url]: https://github.com/magic-modules/
 [doc-url]: https://magic-modules.github.io/hero/
 
@@ -40,3 +48,4 @@ export const View = state => Hero({ state, src: '/img/hero.jpg' })
 [greenkeeper-url]: https://badges.greenkeeper.io/magic-modules/hero.svg
 [snyk-image]: https://snyk.io/test/github/magic-modules/hero/badge.svg
 [snyk-url]: https://snyk.io/test/github/magic-modules/hero
+
