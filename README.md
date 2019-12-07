@@ -16,7 +16,7 @@ more documentation:
 
 ### <a name="installation"></a>installation:
 ```bash
-npm install magic-modules/hero
+npm install @magic-modules/hero
 ```
 
 ### <a name="usage"></a>usage
