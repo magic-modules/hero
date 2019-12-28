@@ -3,6 +3,6 @@ export default {
   WEB_ROOT: '/hero/',
   PUBLIC: 'docs',
   THEME: 'docs',
-
   URL: 'magic-modules.github.io/hero',
+  HOIST: 'Gdpr',
 }
