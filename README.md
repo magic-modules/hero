@@ -37,6 +37,7 @@ update readme
 require node 13.5.0
 
 ##### 0.0.4 - unreleased
+...
 
 [magic-module-url]: https://github.com/magic-modules/
 [doc-url]: https://magic-modules.github.io/hero/
