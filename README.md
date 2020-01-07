@@ -27,11 +27,16 @@ export const View = state => Hero({ state, src: '/img/hero.jpg' })
 
 ### changelog
 
-#### 0.0.1
+##### 0.0.1
 first release
 
-#### 0.0.2
+##### 0.0.2
 update readme
+
+##### 0.0.3 - unreleased
+require node 13.5.0
+
+##### 0.0.4 - unreleased
 
 [magic-module-url]: https://github.com/magic-modules/
 [doc-url]: https://magic-modules.github.io/hero/
