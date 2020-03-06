@@ -15,3 +15,9 @@ export const state = {
     { to: '/#source', text: 'source' },
   ],
 }
+
+export const style = {
+  '.Hero': {
+    color: '#000000',
+  },
+}
