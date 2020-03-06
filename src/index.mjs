@@ -5,11 +5,7 @@ export const View = ({ state, ...props }) => {
     }
   }
 
-  const {
-    src,
-    heading = state.title,
-    branding = state.description,
-  } = props
+  const { src, heading = state.title, branding = state.description } = props
 
   CHECK_PROPS({ ...props, src, heading, branding }, propTypes, 'Hero')
   if (!src) {
