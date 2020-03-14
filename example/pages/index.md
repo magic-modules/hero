@@ -4,7 +4,7 @@ this is the [@magic-modules](https://github.com/magic-modules) Hero component.
 
 ${state.description}
 
-<GitBadges>magic-modules/hero</GitBadges>
+<GitBadges>@magic-modules/hero</GitBadges>
 
 ## installation
 
