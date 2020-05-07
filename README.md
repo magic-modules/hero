@@ -33,8 +33,8 @@ first release
 ##### 0.0.2
 update readme
 
-##### 0.0.3 - unreleased
-require node 13.5.0
+##### 0.0.3
+bump required node version to 14.2.0
 
 ##### 0.0.4 - unreleased
 ...
