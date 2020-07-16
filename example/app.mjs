@@ -2,6 +2,7 @@ export const state = {
   title: '@magic-modules/hero',
   description: 'embeds a hero module at the top of your page.',
   logotext: 'Hero',
+
   menu: [
     { to: '/#installation', text: 'installation' },
     {
