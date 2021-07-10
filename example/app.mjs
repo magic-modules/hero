@@ -9,7 +9,7 @@ export const state = {
       to: '/#usage',
       text: 'usage',
       items: [
-        { to: '-default-args', text: 'default arguments' },
+        { to: '-default-arguments', text: 'default arguments' },
         { to: '-hide', text: 'hide parts' },
       ],
     },
